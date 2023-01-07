@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+section{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+/*========== Nav Style ==========*/
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #151414;
+}
+.menu-bar ul{
+    display: flex;
+    padding: 30px 0;
+}
+.menu-bar li{
+    list-style: none;
+}
+.menu-bar li a{
+    color: #fff;
+    margin-left: 25px;
+}
+/*========== Header Style ==========*/
+header{
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    height: 100vh;
+    text-align: right;
+}
+.header{
+    width: 1140px;
+    padding-top: 10%;
+}
+.header-content h1{
+    font-weight: 700;
+    font-size: 65px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.header-para{
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 26px;
+}
+.primary-btn{
+    border: none;
+    height: 64px;
+    background: #FFFFFF;
+    color: #005FAC;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*========== Failu Style ==========*/
+.failur-section{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.section-details{
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.section-topic p{
+    margin-bottom: 8px;
+    color: #444343;
+}
+.section-topic p i{
+    color: #16D887;
+    margin-right: 14px;
+}
+.plan-wrap{
+    display: flex;
+    justify-content: space-around;
+    gap: 86px;
+    margin: 50px 0 150px;
+    text-align: center;
+}
+.plan-box h4{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin: 24px 0 16px;
+}
+.plan-box p {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+.call-me{
+    background-image:url(../images/watch.png), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 300px;
+    border-radius: 8px;
+    padding: 60px 0 60px 64px;
+    display: flex;
+    align-items: center;
+}
+.call-title{
+    color: #fff;
+}
