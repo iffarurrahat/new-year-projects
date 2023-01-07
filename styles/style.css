@@ -5,7 +5,7 @@
     list-style: none;
     font-family: 'Work Sans', sans-serif;
 }
-section{
+section, .footer{
     width: 1140px;
     margin: 0 auto;
     margin-top: 130px;
@@ -171,7 +171,7 @@ input[type="text"], [type="email"], [type="number"]{
     margin-bottom: 10px;
 }
 textarea{
-    width: 100%;
+    width: 82%;
     height: 200px;
     padding: 16px 30px 30px!important;
     background-color: transparent;
@@ -179,4 +179,32 @@ textarea{
     border-radius: 12px;
     color: #6f6b80;
     font-size: 18px;
+}
+.btn-more-color{
+    background-color: #005FAC;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 50px;
+    display: block;
+    float: right;
+}
+/*========== Footer Style ==========*/
+footer{
+    background: #151414;;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 130px 0;
+}
+.footer-content p{
+    margin-bottom: 24px;
+}
+.footer-icon img{
+    margin-right: 17px;
+}
+.footer-right h2{
+    font-size: 25px;
+    margin-bottom: 30px;
 }
